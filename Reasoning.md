@@ -15,12 +15,11 @@
 **Student submission:**
 
 <pre>
-  ```python
-   def factorial(n):
+  def factorial(n):
      if n == 0:
        return 0   # it should return 1
-    else:
-        return n * factorial(n-1) ```` 
+     else:
+       return n * factorial(n-1) 
 </pre>
 
 1. Expected teacher feedback:
