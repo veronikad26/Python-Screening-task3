@@ -25,6 +25,6 @@ To try out the models locally:
 
 ## More Information
 
-- Research plan: [Research_plan.md](./Research_Plan.md)  
+- Research plan: [Research_Plan.md](./Research_Plan.md)  
 - Detailed reasoning: [Reasoning.md](./Reasoning.md)  
 
