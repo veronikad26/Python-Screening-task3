@@ -12,4 +12,6 @@ In approaching this evaluation, I surveyed open-source large language models tra
 
 I would design a test set of student Python submissions (e.g., recursion, loops, OOP tasks) annotated by teachers, and compare model outputs against this ground truth to measure accuracy, helpfulness of prompts, and potential for uncovering reasoning gaps.
 
+
+
 For applicability, I would run small-scale trials with each model. Code LLaMA (Python-Instruct) is promising because it combines code specialization with instruction following, making it strong for hint generation and conceptual analysis. StarCoder excels at large context code understanding, but in its base form may need fine-tuning to follow pedagogical instructions; variants like StarChat improve this. Mistral-7B, while not code-specialized, has shown strength in generating feedback in educational studies, and may strike a balance between quality and resource efficiency. A comparative evaluation highlights trade-offs Code LLaMA for deep Python analysis but higher compute cost, StarCoder for broad code coverage but weaker pedagogy without fine-tuning, and Mistral for lighter deployment with solid general feedback. The final selection would depend on context—whether the priority is depth of analysis, interpretability, or scalability across classrooms.
