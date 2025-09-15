@@ -26,6 +26,7 @@
 The student misunderstands the base case of factorial. Instead of returning 0, the correct return value should be 1. A good prompt would guide the student to reconsider what factorial(0) means mathematically.
 
 2. Model-style feedback:
+
 Code LLaMA (Python-Instruct):
 “Notice how your function defines the factorial of 0. Does 0! equal 0 or something else in mathematics? Think carefully about the definition before adjusting your base case.”
 
